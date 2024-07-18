@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.column {
+    flex-direction: column;
+  }
+.bg-red{
+    background-color: #8c1a10;
+}
+.bg-yellow{
+    background-color: #f9da78;
+}
+.btn {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+.border{
+    border: 2px solid black;
+    border-top: none;
+}
+li{
+    color: black;
+    text-decoration: none;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0.5rem 0;
+}
+a{
+    text-decoration: none;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+aside{
+    flex: 2;
+}
+.large-card > img{
+
+    flex: 3;
+}
+.small-card{
+    border: 2px solid black;
+    flex: 1;
+    padding: 1rem;
+}
+.small-card>img{
+    width: 100%;
+    justify-content: center;
+}
+.large-card{
+    border: 2px solid black;
+    padding: 1rem;
+}
+.heart{
+    cursor: pointer;
+}
+
